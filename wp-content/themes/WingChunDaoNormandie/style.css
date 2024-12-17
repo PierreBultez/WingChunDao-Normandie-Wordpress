@@ -1,0 +1,140 @@
+/*
+Theme Name: WingChunDao Normandie
+Author: Pierre Bultez
+Author URI: https://pierrebultez.com
+Description: custom theme for Normandie's WingChunDao school
+Requires at least: 6.6
+Tested up to: 6.7.1
+Requires PHP: 8
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+/* 1. Supprime les marges par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Définit les dimensions pour une meilleure gestion des bordures */
+html {
+    /* Définit la taille de la racine pour un usage avec rem */
+    font-size: 100%; /* 16px par défaut sur la plupart des navigateurs */
+    line-height: 1.5; /* Espacement agréable pour les textes */
+    scroll-behavior: smooth; /* Défilement fluide */
+}
+
+/* 3. Body par défaut */
+body {
+    font-family: "bebas-neue-pro-expanded", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    -webkit-font-smoothing: antialiased; /* Améliore le rendu des polices sur Webkit */
+    -moz-osx-font-smoothing: grayscale;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+/* 4. Supprime les décorations des listes */
+ul, ol {
+    list-style: none;
+}
+
+/* 5. Supprime les styles des liens */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 6. Définit un style par défaut pour les images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 7. Supprime les styles des boutons */
+button, input, textarea {
+    font: inherit; /* Inhère la police du parent */
+    border: none;
+    background: none;
+    outline: none; /* Supprime l'effet de focus */
+    color: inherit;
+}
+
+/* 10. Ajoute une gestion des éléments HTML5 */
+article, aside, details, figcaption, figure,
+footer, header, main, nav, section, summary {
+    display: block;
+}
+
+/* 11. Supprime les bordures des champs de formulaire */
+fieldset {
+    border: none;
+}
+
+/* 13. Gère les boutons */
+button {
+    cursor: pointer;
+}
+
+/* 14. Prévention des problèmes liés à l'overflow */
+iframe {
+    border: 0;
+}
+
+/* 16. Ajoute une gestion des variables CSS globales (optionnel) */
+:root {
+    --text-color: #142A30;
+    --background-color: #F5E6CA;
+    --first-accentuation: #FF3B3F;
+    --second-accentuation: #48B9B3;
+    --third-accentuation: #FFD700;
+    --fourth-accentuation: #2E4C6D;
+    --github-color: #171515;
+    --github-color-hover: #968989;
+    --linkedin-color: #007BB5;
+    --linkedin-color-hover: #00A0DC;
+    --facebook-color: #3B5998;
+    --facebook-color-hover: #5E9EFA;
+}
+
+h1 {
+    font-family: "bebas-neue-pro-expanded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    color: var(--text-color);
+}
+
+h2 {
+    font-family: "bebas-neue-pro-expanded", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+h3 {
+    font-family: "bebas-neue-pro-expanded", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+
+p {
+    font-family: "bebas-neue-pro-expanded", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-color);
+}
