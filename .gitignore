@@ -8,11 +8,14 @@
 /wp-admin/
 /wp-content/index.php
 /wp-content/languages
-/wp-content/plugins/index.php
+/wp-content/plugins
+/wp-content/upgrade
+/wp-content/upgrade-temp-backup
+/wp-content/uploads
 /wp-content/themes/index.php
+/wp-content/themes/twentytwentythree
 /wp-includes/
 /index.php
-/license.txt
 /readme.html
 /wp-*.php
 /xmlrpc.php
@@ -23,11 +26,8 @@ wp-config.php
 # Example themes
 /wp-content/themes/twenty*/
 
-# Example plugin
-/wp-content/plugins/hello.php
+# Plugin
 
-# Uploads
-/wp-content/uploads/
 
 # Log files
 *.log
