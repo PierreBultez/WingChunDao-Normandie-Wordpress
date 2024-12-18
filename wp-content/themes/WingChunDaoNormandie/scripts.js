@@ -1,1 +1,3 @@
-console.log ("WingChunDaoNormandie");
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("WingChunDaoNormandie");
+});
